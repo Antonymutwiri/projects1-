@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel feedback</title>
+</head>
+<body>
+    <form>
+        <h1>Hotel feedback form</h1>
+        <p>Please answer the following questions</p>
+
+        <!-- This is for radio btton -->
+        <h3>Select your gender</h3>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" id="Other" name="gender">
+        <label for="Other">Other</label>
+
+        <!-- For drop down menu -->
+        <h3>Please rate our services</h3>
+        <br>
+        <select name="feedback" id="">
+            <option value="5">Excellent</option>
+            <option value="4">Very Good</option>
+            <option value="3">Good</option>
+            <option value="2">Fair</option>
+            <option value="1">very poor</option>
+        =====</select>
+
+            <!-- For Checkbox -->
+            <br>
+            <h3>Select otherplaces visited in Africa!</h3>
+            <input type="checkbox" id="Kenya">
+            <label for="Kenya">Kenya</label>
+            <br>
+
+            <input type="checkbox" id="Nigeria">
+            <label for="Nigeria">Nigeria</label>
+            <br>
+            <input type="checkbox" id="Niger">
+            <label for="Niger">Niger</label>
+            <br>
+            <input type="checkbox" id="South Africa">
+            <label for="South Africa">South Africa</label>
+            <br>
+            <input type="checkbox" id="Ghana">
+            <label for="Ghana">Ghana</label>
+            <br>
+
+            <!-- For text area -->
+            <h3>Any other message for us?</h3>
+            <textarea name="" id="area" cols="30" rows="10" placeholder="Enter your message here"></textarea> 
+        <br> <br>
+    <input type="submit" value="send">      
+    </form>
+</body>
+</html>
